@@ -3,6 +3,7 @@ package com.example.enter_names;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 import com.example.enter_names.databinding.ActivityMainBinding;
@@ -47,5 +48,6 @@ public class MainActivity extends AppCompatActivity {
                  binder.names.setText("");
             }
         });
+        Log.e("hello" ,"welcome!!");
     }
 }
