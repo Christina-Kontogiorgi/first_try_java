@@ -49,5 +49,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         Log.e("hello" ,"welcome!!");
+
+        binder.openfragment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // edw 8a anoigei to neo mou fragment!!! <3
+                MyNewEpicFragment f = new MyNewEpicFragment();
+                f.show(getSupportFragmentManager(),"tokaliterofragmentstonplaniti");
+            }
+        });
     }
 }
